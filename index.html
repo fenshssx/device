@@ -1,166 +1,205 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Device</title>
-  </head>
-  <body>
-<header>
-  <nav>
-    <a>
-      <img src="https://via.placeholder.com" width="360" height="150" alt="Логотип компании «Device»">
-      </a>
-<form action="search" method="get">
-  <input type="search" name="q" placeholder="Текст поиска">
-  <button type="submit">Найти</button>
-</form>
-<a href="#">Войти</a>
-<ul class="user-menu">
-<li>
-<a href="#">Сравнить</a>
-</li>
-<li>
-<a href="#">Корзина</a>
-</li>
-<li>
-<a href="#"><h3>Каталог товаров</h3></a>
-</li>
-<li>
-<a href="#"><h3>Доставка</h3></a>
-</li>
-<li>
-<a href="#"><h3>Гарантия</h3></a>
-</li>
-<li>
-<a href="#"><h3>Контакты</h3></a>
-</li>
-
-</ul>
-</nav>
-    </header>
-<main>
-  <section>
-  <img src="https://via.placeholder.com/150x100" alt="картинка">
-<h1>Порхает как бабочка,<br> жалит как пчела!</h1>
-<p>Этот обычный, на первый взгляд, квадрокоптер оснащен<br> мощным лазером, замаскированным под стандартную камеру.</p>
-<a href="#">Подробнее</a>
-<p>800 м</p>
-<p>Дальность полета</p>
-<p>50 м</p>
-<p>Радиус поражения</p>
-</section>
-<section>
-<ul>
-  <li>
-<a href="#">Виртуальная реальность</a>
-</li>
-<li>
-<a href="#">Моноподы для селфи</a>
-</li>
-<li>
-<a href="#">Экшн-камеры</a>
-</li>
-<li>
-<a href="#">Фитнес-браслеты</a>
-</li>
-<li>
-<a href="#">Умные часы</a>
-</li>
-<li>
-<a href="#">Квадрокоптеры</a>
-</li>
-</ul>
-</section>
-<section>
-<button type="button">Доставка</button><br>
-<button type="button">Гарантия</button><br>
-<button type="button">Кредит</button>
-<h2>Доставка</h2>
-<p>Мы с удовольствием доставим ваш товар прямо<br>
-к вашему подъезду совершенно бесплатно! Ведь<br>
-мы неплохо заработаем, поднимая его на ваш этаж</p>
-</section>
-<section>
-<h2>О нас</h2>
-<p>Огромный выбор гаджетов не оставит равнодушным<br> гика, который есть в каждом из нас.</p>
-<p>Мы можем доставить ваш товар в самые отдалённые<br> уголки России транспортными компаниями:</p>
-<ul>
-<li>
-<p>Меловые линии</p>
-</li>
-<li>
-<p>СДИК</p>
-</li>
-<li>
-<p>ТоксБерри</p>
-</li>
-  </ul>
-  <button type="button">Подробнее о нас</button>
-  </section>
-  <section>
-  <h2>Контакты</h2>
-<p>Вы можете забрать товар сами, заехав в наш офис.<br>
-Заодно сможете проверить работоспособность покупки.</p>
-<h3>Интернет-Магазин «Девайс»</h3>
-<p>Санкт-Петербург, набережная реки Карповки, 5, литера П.<br>
-  <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-</p>
-<p>
-Время работы:<br>
-пн—пт: с 10:00 до 22:00<br>
-сб—вс: с 10:00 до 19:00
-</p>
-<button type="button">Напишите нам</button>
-</section>
-<section>
-<h2>Подпишитесь на рассылку</h2>
-<p>
-Еженедельный дайджест с обзорами новинок,<br>
-длительными тест-драйвами, распаковками, а также акции,<br> спецпредложения и вот это вот всё.
-  </p>
-  <input id="login" type="email" name="login" placeholder="Ваш e-mail">
-<button type="button">Подписаться</button>
-<p>Это бесплатно</p>
-  </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device</title>
+</head>
+<body>
+  <header>
+    <a><img src="https://via.placeholder.com/145x36" width="145" height="36" alt="Логотип интернет-магазина device"></a>
+    <form action="search" name="header-search" method="get">
+      <input type="text" name="search" placeholder="Текст поиска">
+      <button type="submit">Найти</button>
+    </form>
+    <ul class="user-menu">
+      <li><a href="#">Войти</a></li>
+      <li><a href="#">Сравнить</a></li>
+      <li><a href="#">Корзина</a></li>
+    </ul>
+    <nav>
+      <ul>
+        <li><a href="index catalog.html">Каталог товаров</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 class="visually-hidden">Интернет-магазин умных девайсов</h1>
+      <ul class="hero-slider">
+        <li>
+          <img src="https://via.placeholder.com/560x560" width="560" height="560" alt="Квадрокоптер">
+          <h2 class="visually-hidden">Квадрокоптер</h2>
+          <p>
+            Порхает как бабочка,<br>
+            жалит как пчела!
+          </p>
+          <p>
+            Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
+             мощным лазером, замаскированным под стандартную камеру.
+          </p>
+          <button>Подробнее</button>
+          <dl>
+            <dt>Дальность полета</dt>
+            <dd>800 м</dd>
+            <dt>Радиус поражения </dt>
+            <dd>50 м</dd>
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="visually-hidden">Категории товаров</h2>
+      <ul>
+        <li>
+          <h3>Виртуальная реальность</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+        <li>
+          <h3>Радиус поражения</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+        <li>
+          <h3>Экшн-камеры</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+        <li>
+          <h3>Фитнес-браслеты</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+        <li>
+          <h3>Умные часы</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+        <li>
+          <h3>Квадрокоптеры</h3>
+          <img src="https://via.placeholder.com/160x160" width="160" height="160" alt="">
+        </li>
+      </ul>
+    </section>
+    <div>
+      <ul>
+        <li>
+          <button>Доставка</button>
+        </li>
+        <li>
+          <button>Гарантия</button>
+        </li>
+        <li>
+          <button>Кредит</button>
+        </li>
+      </ul>
+      <section>
+        <h2>Доставка</h2>
+        <p>
+          Мы с удовольствием доставим ваш товар прямо<br>
+          к вашему подъезду совершенно бесплатно! Ведь<br>
+          мы неплохо заработаем, поднимая его на ваш этаж.
+        </p>
+      </section>
+      <section>
+        <h2>Гарантия</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+           Nunc bibendum tempus pellentesque.<br>
+            Nulla posuere laoreet aliquam.<br>
+        </p>
+      </section>
+      <section>
+        <h2>Кредит</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+           Nunc bibendum tempus pellentesque.<br>
+            Nulla posuere laoreet aliquam.<br>
+        </p>
+      </section>
+    </div>
+    <section>
+      <h2 class="visually-hidden">Наше основное преимущество</h2>
+      <p>
+        Доставим редкий товар под заказ
+      </p>
+    </section>
+    <div class="infortmation">
+      <section>
+        <h2>О нас</h2>
+        <p>
+          Огромный выбор гаджетов не оставит равнодушным<br>
+           гика, который есть в каждом из нас.
+        </p>
+        <p>
+          Мы можем доставить ваш товар в самые отдалённые<br>
+           уголки России транспортными компаниями:
+        </p>
+        <ul>
+          <li>Меловые линии</li>
+          <li>СДИК</li>
+          <li>ТоксБерри</li>
+        </ul>
+        <a href="#">Подробнее о нас</a>
+      </section>
+      <section>
+        <h3>Контакты</h3>
+        <p>
+          Вы можете забрать товар сами, заехав в наш офис.<br>
+        Заодно сможете проверить работоспособность покупки.
+        </p>
+        <h3>Интернет-магазин «Девайс»</h3>
+        <address>Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
+        <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <h3>Время работы</h3>
+        <p>
+          пн—пт: с 10:00 до 22:00<br>
+          сб—вс: с 10:00 до 19:00
+        </p>
+        <a href="#">Напишите нам</a>
+      </section>
+    </div>
+    <section>
+      <h2>Подпишитесь на рассылку</h2>
+      <p>
+        Еженедельный дайджест с обзорами новинок,<br>
+        длительными тест-драйвами, распаковками, а также акции,<br>
+        спецпредложения и вот это вот всё.
+      </p>
+      <form action="#" name="Подписка на рассылку" method="get" >
+        <input type="email" name="email" placeholder="Ващ e-mail">
+        <button type="submit">Подписаться</button>
+      </form>
+      <p>
+        Это бесплатно
+      </p>
+    </section>
   </main>
-<footer>
-<section>
-<a>
-<img src="https://via.placeholder.com" width="360" height="150" alt="Логотип компании «Device»">
-</a>
-<p>Санкт-Петербург, набережная<br>
-реки Карповки, 5, литера П.</p>
-</section>
-<section>
+  <footer>
+    <a><img src="https://via.placeholder.com/145x36" width="145" height="36" alt="Логотип интернет-магазина device"></a>
+    <address>Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
+    <nav>
+      <ul>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+78128121212">Тел: +7 (812) 812-12-12</a>
+    <ul>
+      <li>
+        <a href="#">Фейсбук</a>
+      </li>
+      <li>
+        <a href="#">Инстаграм</a>
+      </li>
+      <li>
+        <a href="#">Твиттер</a>
+      </li>
+    </ul>
+    <p>
+      <a href="https://htmlacademy.ru">HTML Academy</a>
+    </p>
+  </footer>
 
-<a href="#"><h3>Доставка</h3></a>
-
-
-<a href="#"><h3>Гарантия</h3></a>
-
-
-<a href="#"><h3>Контакты</h3></a>
-
-<ul>
-<li>
-<a href="#">Фейсбук</a>
-</li>
-<li>
-<a href="#">Инстаграм</a>
-</li>
-<li>
-<a href="#">Твиттер</a>
-</li>
-</ul>
-<p>
-Тел: <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-</p>
-<p>
-<a href="https://htmlacademy.ru">HTML Academy</a>
-</p>
-</section>
-
-
-</footer>
-  </body>
+</body>
 </html>
